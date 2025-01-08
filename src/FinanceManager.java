@@ -7,7 +7,7 @@ public class FinanceManager {
     public static void main(String[] args) {
         while (true) {
             System.out.println("Добро пожаловать в Сервис управления личными финансами!");
-            System.out.println("Для продолжения работы введите команду: (register, login, exit): ");
+            System.out.println("Для продолжения работы введите команду: register, login, exit: ");
             String command = scanner.nextLine();
 
             switch (command) {
